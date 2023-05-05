@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.568);
+        }
+
+       td{
+           border: 1px solid black;
+           color: rgb(0, 0, 0);
+           padding: 8px;
+           text-align: center; /*alinhamento horizontal*/
+           vertical-align: top; /*alinhamento vertical*/
+           
+        }
+
+        .tabela1{
+            background-color: gray;
+        }
+
+        .tabela2{
+            background-color: yellow;
+        }
+
+        .tabela3{
+            background-color: red;
+        }
+
+        .tabela4{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+    <!--
+        Hierarquia de Tabelas simples
+        table = TABELA
+        table row = LINHA DA TABELA
+        table header = CABEÇALHO DA TABELA
+        table data = DATA DA TABELA (CONTEUDO)
+    -->
+    <table>
+        <tr>
+            <td class="tabela1">A1</td>
+            <td class="tabela1">B1</td>
+            <td class="tabela1">C1</td>
+        </tr>
+        <tr>
+            <td class="tabela2">A2</td>
+            <td class="tabela2">B2</td>
+            <td class="tabela2">C2</td>
+        </tr>
+        <tr>
+            <td class="tabela3">A3</td>
+            <td class="tabela3">B3</td>
+            <td class="tabela3">C3</td>
+        </tr>
+        <tr>
+            <td class="tabela4">A4</td>
+            <td class="tabela4">B4</td>
+            <td class="tabela4">C4</td>
+        </tr>
+
+    </table>
+</body>
+</html>

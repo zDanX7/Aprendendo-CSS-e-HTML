@@ -31,6 +31,11 @@
         .porcen{
             color: green;
         }
+        #leg{
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
     </style>
 </head>
 <body>
@@ -38,6 +43,7 @@
     <!--
         Anatomia para TABELAS grandes
         TABLE
+        CAPTION 'legenda da tabela'
         THEAD
         <tr> <td> <th>
         TBODY
@@ -47,13 +53,14 @@
     -->
 
     <table>
+        <caption id="leg">Lista</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População 2010</th>
-                <th>População 2020</th>
-                <th>Mudança</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População 2010</th>
+                <th scope="col">População 2020</th>
+                <th scope="col">Mudança</th>
             </tr>
         </thead>
 

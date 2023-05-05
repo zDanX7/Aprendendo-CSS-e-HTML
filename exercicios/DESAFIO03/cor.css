@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+h1{
+    text-align: center;
+    color: white
+    
+}
+
+.lista{
+    text-align: center;
+}
+
+
+button{
+    background-color: rgb(0, 0, 0);
+    border-style: dotted;
+    border-radius: 120px;
+
+}
+
+a{
+    color: blanchedalmond;
+}
+
+.btn-neon {
+    background-color: #000; /* cor de fundo do botão */
+    border: none; /* remover borda */
+    color: #fff; /* cor do texto */
+    padding: 10px 20px; /* tamanho do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remover sublinhado */
+    display: inline-block; /* exibir como bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 10px 0; /* margem superior e inferior */
+    cursor: pointer; /* alterar o cursor ao passar por cima */
+    transition: color 0.2s ease, background-color 0.2s ease; /* transição suave */
+  }
+  
+  .btn-neon:hover {
+    background-color: rgb(145, 11, 172); /* cor de fundo do botão quando passar o mouse */
+    color: #ce1616; /* cor do texto quando passar o mouse */
+    box-shadow: 0 0 20px rgb(255, 0, 140), 0 0 40px rgb(255, 0, 149), 0 0 60px #0f0; /* sombra neon */
+  }
+  

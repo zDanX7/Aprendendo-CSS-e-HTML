@@ -1,0 +1,50 @@
+
+
+header{
+    margin: -10px;
+    padding: 5px 5px 5px 20px;
+    border: 10px solid rgb(56, 33, 33);
+    
+    
+    
+    
+}
+
+ul{
+    padding: 10px;
+    background-color: rgb(88, 78, 78);
+    margin: 10px 10px 10px 1px;
+}
+
+li{
+    display: inline;
+    padding: 10px 10px 10px 5px;
+    margin-right: 60px;
+    color: bisque;
+
+
+}
+
+main{
+    display: inline-block;
+    border: 10px solid rgb(56, 33, 33);
+    margin: 10px -10px -10px -10px;
+}
+
+div{
+    background-color: rgb(124, 120, 111);
+    padding: 10px;
+  
+}
+.artigo{
+    background-color: rgb(150, 140, 140);
+
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1px;
+ 
+}

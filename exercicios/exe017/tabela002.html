@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        thead{
+            background-color: red;
+            color: white;
+        }
+
+        .porcen{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        Anatomia para TABELAS grandes
+        TABLE
+        THEAD
+        <tr> <td> <th>
+        TBODY
+        <tr> <td> <th>
+        TFOOT
+        <tr> <td> <th>
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População 2010</th>
+                <th>População 2020</th>
+                <th>Mudança</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <td>1</td>
+            <td>São Paulo</td>
+            <td>41 262 199</td>
+            <td>46 024 937</td>
+            <td class="porcen">+11.5%</td>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>20 732 660</td>
+                <td class="porcen">+5.8%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+                <td>16 615 526</td>
+                <td class="porcen">+3.9%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+                <td>14 659 023</td>
+                <td class="porcen">+4.6%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+                <td>11 835 379</td>
+                <td class="porcen">+13.3%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td>10 693 929</td>
+                <td>11 088 065</td>
+                <td class="porcen">+3.7%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td>8 796 448</td>
+                <td>9 051 113</td>
+                <td class="porcen">+2.9%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td>8 452 381</td>
+                <td>8 936 431</td>
+                <td class="porcen">+5.7%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td>7 581 051</td>
+                <td>8 442 962</td>
+                <td class="porcen">+11.4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+                <td>7 762 154</td>
+                <td class="porcen">+24.2%</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Goiás</td>
+                <td>6 003 788</td>
+                <td>6 950 976</td>
+                <td class="porcen">+15.8%</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+</html>
